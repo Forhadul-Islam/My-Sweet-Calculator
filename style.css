@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    background-color:rgb(98, 42, 42);
+    background-image: url(images/orlova-maria-x9WIHLvqMA0-unsplash.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#container{
+    width: 321px;
+    height: 526px;
+    background-image: url(images/biography-bg.png);
+    position: relative;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+#calculator{
+    width: 320px;
+    height: 525px;
+    background-color: #dde2e096;
+    border-radius: 10px;
+    margin: 0px auto;
+    border: 1px solid #713562;
+}
+#result{
+    height:120px;
+        
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 35px;
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 15px;
+    /* text-align: center; */
+    border-radius: 40px;
+    
+    font-size: 20px;
+    border-style: none;
+    box-shadow: #303539 2px 2px 100px -7px;
+}
+ .empty{
+    background-color: #dde2e096;
+    
+}
+.number{
+    background-color: #aac3c7;
+}
+.operator{
+    background-color:#676f7b ;
+}
+.operator, .number{
+    cursor: pointer;
+}
+.operator:active, .number:active{
+    font-size: 15px;
+}
+.operator:focus, .empty:focus, .number:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #097d77;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #a62727;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #0d5b8e;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #0e7b50;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #891b58;
+}
+.number:hover{
+    background-color: lightsalmon;
+}
